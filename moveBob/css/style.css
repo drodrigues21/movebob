@@ -1,0 +1,59 @@
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(191, 122, 233);
+	margin: 0;
+}
+
+.bob {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(244, 215, 176);
+	border-radius: 100%;
+
+	position: absolute;
+	transition: all 500ms ease-out;
+}
+
+.eyes-container {
+	display: flex;
+	gap: 5px;
+
+	position: relative;
+	top: 45px;
+	left: 60px;
+}
+
+.eye {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+.dot {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 100%;
+	position: relative;
+	top: 15px;
+	left: 25px;
+}
+
+/* .eye::after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	border-radius: 100%;
+
+	position: relative;
+	top: 15px;
+	left: 25px;
+} */
